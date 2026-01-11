@@ -25,16 +25,13 @@ jobs = [
 def get_jobs(
     skip: int = 0,
     limit: int = 10,
-    status: Optional[str] = None,
-    company: Optional[str]=None
+    status: Optional[str] = None
 ):
     result = jobs
 
     # Filtering
     if status:
         result = [job for job in result if job["status"] == status]
-    if company:
-        result = [job for job in result if job["company"] == company]
 
     # Pagination
     return result[skip : skip + limit]

@@ -38,4 +38,4 @@ Pagination and filtering are implemented using query parameters.
 - Why pagination is necessary
 - How to use skip & limit
 - How to filter data using query parameters
-- How to design performance-friendly APIs
+- How to design performance-friendly API
