@@ -15,3 +15,6 @@ Thumbs.db
 
 # Database (optional)
 *.sqlite3
+
+# environment files 
+.env
